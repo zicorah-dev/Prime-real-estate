@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom"
 
 import Navbar from "./components/Navbar";
-import SearchBar from "./components/SearchBar"
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
@@ -25,10 +24,6 @@ function RoutesComponent(){
         <Route 
         path="/properties" 
         element={<Properties/>}/>
-
-        <Route 
-        path="/searchBar" 
-        element={<SearchBar/>}/>
 
         <Route 
         path="/property/:id" 
