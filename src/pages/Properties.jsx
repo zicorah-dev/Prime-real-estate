@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 
-import SearchBar from "../components/SearchBar";
+import SearchBar from "../components/Searchbar";
 import PropertyCard from "../components/PropertyCard";
 
 import properties from "../data/properties";
